@@ -90,8 +90,6 @@ class _ProductsListState extends State<BasketProductCard> {
               currentClient.addToBasket(widget.product);
             },
             child: Icon(Icons.add))]),
-      
-          
            ]));
   }
 }
